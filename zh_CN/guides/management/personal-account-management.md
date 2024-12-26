@@ -51,10 +51,10 @@ Dify 欢迎更多社区志愿者一同参与贡献更多语言版本，前往[ G
 
 ### 删除个人账号
 
-出于团队数据安全考虑，暂不支持在线自助删除个人账号信息。如需彻底删除账号，请在邮件中填写以下信息并手发送至 support@dify.ai。
+⚠️ 危险操作，请谨慎处理。
 
-```
-删除账号：your-email
-```
+如需确认删除 Dify SaaS 服务账号，请点击右上角的头像，轻点下拉框中的“账号”，点击“删除账号”按钮。删除账号操作不可逆，相同的邮箱地址在 30 天内无法重新注册。当前账号所拥有的工作空间也会一并删除，并被自动移除出所有已加入的工作空间。
 
-<figure><img src="../../../img/zh-personal-account-3.png" alt=""><figcaption><p>删除个人账户</p></figcaption></figure>
+输入需要删除的邮箱，输入确认验证码后，系统将彻底删除账号的所有信息。
+
+<figure><img src="https://assets-docs.dify.ai/2024/12/ded326f27886b5884969c220ead998d7.png" alt=""><figcaption><p>删除个人账户</p></figcaption></figure>
