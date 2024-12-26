@@ -29,9 +29,9 @@ You can modify the following details:
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-### Integrations
+### Login Methods
 
-You can link your GitHub and Google accounts as login methods for your Dify team. Click on your avatar in the upper right corner of the Dify team homepage, then click **"Integrations"** to set up these links.
+Supports 3 login methods: email + verification code, Google authentication, and GitHub authentication. The same Dify account can log in directly using email + verification code or through Google/GitHub authentication linked to the same email, without the need for additional binding.
 
 ### Changing Display Language
 

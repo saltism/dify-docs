@@ -26,9 +26,9 @@ Dify 不同版本支持的登录方式如下：
 
 <figure><img src="../../../img/zh-personal-account-2.png" alt=""><figcaption></figcaption></figure>
 
-### 绑定登录方式
+### 登录方式
 
-支持绑定 GitHub 与 Google 账号作为 Dify 团队的登录方式。请点击 Dify 团队首页右上角头像，轻点 **“集成”** 进行绑定。
+支持通过邮箱+验证码、Google 授权和 Github 授权三种方式登录 Dify 平台。同一个 Dify 账户，可通过邮箱+验证码登录，或使用绑定相同邮箱的 Google/Github 账户授权登录，无需额外绑定操作。
 
 ### 切换界面语言
 
@@ -48,6 +48,10 @@ Dify 不同版本支持的登录方式如下：
 * Українська(Україна)
 
 Dify 欢迎更多社区志愿者一同参与贡献更多语言版本，前往[ Github 代码仓库](https://github.com/langgenius/dify/blob/main/CONTRIBUTING.md)进行贡献！
+
+### 查看账号关联的数据
+
+
 
 ### 删除个人账号
 
