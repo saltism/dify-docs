@@ -12,10 +12,10 @@
 
     Visit [https://ollama.com/download](https://ollama.com/download) to download the Ollama client for your system.
 
-2.  Run Ollama and Chat with Llava
+2.  Run Ollama and Chat with Llama3.2
 
     ```bash
-    ollama run llava
+    ollama run llama3.2
     ```
 
     After successful launch, Ollama starts an API service on local port 11434, which can be accessed at `http://localhost:11434`.
@@ -28,10 +28,10 @@
 
     ![](../../.gitbook/assets/ollama-config-en.png)
 
-    * Model Name: `llava`
+    * Model Name: `llama3.2`
     *   Base URL: `http://<your-ollama-endpoint-domain>:11434`
 
-        Enter the base URL where the Ollama service is accessible.
+        Enter the base URL where the Ollama service is accessible. If filling in a public URL still results in an error, please refer to the [FAQ](#faq) and modify environment variables to make Ollama service accessible from all IPs
 
         If Dify is deployed using Docker, consider using the local network IP address, e.g., `http://192.168.1.100:11434` or `http://host.docker.internal:11434` to access the service.
 
@@ -50,7 +50,7 @@
     Click "Save" to use the model in the application after verifying that there are no errors.
 
     The integration method for Embedding models is similar to LLM, just change the model type to Text Embedding.
-4.  Use Ollama Models
+1.  Use Ollama Models
 
     ![](../../.gitbook/assets/ollama-use-model-en.png)
 

@@ -32,7 +32,7 @@
    
    - 基础 URL：`http://<your-ollama-endpoint-domain>:11434`
    
-     此处需填写可访问到的 Ollama 服务地址。
+     此处需填写 Ollama 服务地址。如果填写公开 URL 后仍提示报错，请参考[常见问题](#如何在我的网络上暴露-ollama)，修改环境变量并使得 Ollama 服务可被所有 IP 访问。
    
      若 Dify 为 Docker 部署，建议填写局域网 IP 地址，例如：`http://192.168.1.100:11434` 或 Docker 容器的内部 IP 地址，例如：`http://host.docker.internal:11434`。
    
