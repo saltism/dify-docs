@@ -2,7 +2,7 @@
 
 ![ollama](<../../.gitbook/assets/ollama (1).png>)
 
-[Ollama](https://github.com/jmorganca/ollama) is a local inference framework client that allows one-click deployment of LLMs such as Llama 2, Mistral, Llava, etc. Dify supports integrating LLM and Text Embedding capabilities of large language models deployed with Ollama.
+[Ollama](https://github.com/jmorganca/ollama) is a cross-platform inference framework client (MacOS, Windows, Linux) designed for seamless deployment of large language models (LLMs) such as Llama 2, Mistral, Llava, and more. With its one-click setup, Ollama enables local execution of LLMs, providing enhanced data privacy and security by keeping your data on your own machine.
 
 ## Quick Integration
 
@@ -10,7 +10,8 @@
 
 1.  Download Ollama
 
-    Visit [https://ollama.ai/download](https://ollama.ai/download) to download the Ollama client for your system.
+    Visit [https://ollama.com/download](https://ollama.com/download) to download the Ollama client for your system.
+
 2.  Run Ollama and Chat with Llava
 
     ```bash
@@ -19,7 +20,8 @@
 
     After successful launch, Ollama starts an API service on local port 11434, which can be accessed at `http://localhost:11434`.
 
-    For other models, visit [Ollama Models](https://ollama.ai/library) for more details.
+    For other models, visit [Ollama Models](https://ollama.com/library) for more details.
+
 3.  Integrate Ollama in Dify
 
     In `Settings > Model Providers > Ollama`, fill in:
@@ -58,13 +60,15 @@
 
 ### ⚠️ If you are using docker to deploy Dify and Ollama, you may encounter the following error:
 
-```
+```bash
 httpconnectionpool(host=127.0.0.1, port=11434): max retries exceeded with url:/cpi/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8562812c20>: fail to establish a new connection:[Errno 111] Connection refused'))
 
 httpconnectionpool(host=localhost, port=11434): max retries exceeded with url:/cpi/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8562812c20>: fail to establish a new connection:[Errno 111] Connection refused'))
 ```
 
-This error occurs because the Ollama service is not accessible from the docker container. `localhost` usually refers to the container itself, not the host machine or other containers. To resolve this issue, you need to expose the Ollama service to the network.
+This error occurs because the Ollama service is not accessible from the docker container. `localhost` usually refers to the container itself, not the host machine or other containers. 
+
+You need to expose the Ollama service to the network to resolve this issue.
 
 ### Setting environment variables on Mac
 
