@@ -14,7 +14,7 @@ GitHubリポジトリリンクを通じたプラグインのインストール�
 * 新規パブリックGitHubリポジトリの作成
 * ローカルにGitツールがインストール済み
 
-GitHubの基本知識については、「[GitHubドキュメント](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)」を参照してください。
+GitHubの基本知識については、[GitHubドキュメント](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)を参照してください。
 
 ## 1. プラグインプロジェクトの完成
 
@@ -61,7 +61,7 @@ Gitを初めて使用する場合は、Gitのユーザー名とメールアド�
     
 ## 5. プラグインコードのパッケージング
 
-GitHubリポジトリのReleasesページで新しいバージョンリリースを作成します。リリース時にはプラグインファイルをアップロードする必要があります。プラグインファイルのパッケージング方法の詳細については、「[プラグインのパッケージング](https://docs.dify.ai/ja-jp/plugins/publish-plugins/package-and-publish-plugin-file)」をご覧ください。
+GitHubリポジトリのReleasesページで新しいバージョンリリースを作成します。リリース時にはプラグインファイルをアップロードする必要があります。プラグインファイルのパッケージング方法の詳細については、[プラグインのパッケージング](https://docs.dify.ai/ja-jp/plugins/publish-plugins/package-and-publish-plugin-file)をご覧ください。
 
 ![プラグインコードのパッケージング](https://assets-docs.dify.ai/2025/01/de1d01614ade2214dba5f19eea682804.png)
 
