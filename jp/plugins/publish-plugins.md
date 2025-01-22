@@ -20,7 +20,7 @@
 
 詳細については以下をご参照ください：
 
-Dify Marketplaceへの公開
+[Dify Marketplaceへの公開](https://docs.dify.ai/ja-jp/plugins/publish-plugins/publish-plugin-to-dify-marketplace)
 
 ### GitHubリポジトリ
 
@@ -34,9 +34,9 @@ Dify Marketplaceへの公開
 * プラグインコードをGitHubリポジトリにプッシュ。
 * リポジトリリンクを共有し、ユーザーはリンクからDify Workspaceにプラグインを統合可能。
 
-詳細については以下をご参照ください：
+**詳細については以下をご参照ください：**
 
-個人GitHubリポジトリへの公開
+[個人GitHubリポジトリへの公開](https://docs.dify.ai/ja-jp/plugins/publish-plugins/publish-plugin-on-personal-github-repo)
 
 ### プラグインファイル（ローカルインストール）
 
@@ -55,7 +55,7 @@ Dify Marketplaceへの公開
 
 詳細については以下をご参照ください：
 
-ローカル公開と共有
+[ローカルでの公開と共有](https://docs.dify.ai/ja-jp/plugins/publish-plugins/package-and-publish-plugin-file)
 
 ## 公開に関する推奨事項
 
