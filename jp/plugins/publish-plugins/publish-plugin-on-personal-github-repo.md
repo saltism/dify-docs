@@ -14,11 +14,11 @@ GitHubリポジトリリンクを通じたプラグインのインストール�
 * 新規パブリックGitHubリポジトリの作成
 * ローカルにGitツールがインストール済み
 
-GitHubの基本知識については、[GitHubドキュメント](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)を参照してください。
+GitHubの基本知識については、「[GitHubドキュメント](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)」を参照してください。
 
 ## 1. プラグインプロジェクトの完成
 
-パブリックGitHubへのアップロードは、プラグインを公開することを意味します。プラグインのデバッグと検証が完了し、README.mdファイルが適切に作成されていることを確認してください。
+パブリックGitHubへのアップロードは、プラグインを公開することを意味します。プラグインのデバッグと検証が完了し、`README.md`ファイルが適切に作成されていることを確認してください。
 
 説明文書には以下の内容を含めることを推奨します：
 
@@ -61,8 +61,12 @@ Gitを初めて使用する場合は、Gitのユーザー名とメールアド�
     
 ## 5. プラグインコードのパッケージング
 
-GitHubリポジトリのReleasesページで新しいバージョンリリースを作成します。リリース時にはプラグインファイルをアップロードする必要があります。プラグインファイルのパッケージング方法の詳細については、「プラグインのパッケージング」をご覧ください。
+GitHubリポジトリのReleasesページで新しいバージョンリリースを作成します。リリース時にはプラグインファイルをアップロードする必要があります。プラグインファイルのパッケージング方法の詳細については、「[プラグインのパッケージング](https://docs.dify.ai/ja-jp/plugins/publish-plugins/package-and-publish-plugin-file)」をご覧ください。
+
+![プラグインコードのパッケージング](https://assets-docs.dify.ai/2025/01/de1d01614ade2214dba5f19eea682804.png)
 
 ## GitHubからのプラグインインストール
 
 他のユーザーは、GitHubリポジトリアドレスを通じてプラグインをインストールできます。Difyプラットフォームのプラグイン管理ページにアクセスし、GitHubからのインストールを選択し、リポジトリアドレスを入力後、バージョン番号とパッケージファイルを選択してインストールを完了します。
+
+![GitHubからのプラグインインストール](https://assets-docs.dify.ai/2025/01/7db779f2d581f1c55250e45a4f23d6fb.png)
