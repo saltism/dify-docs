@@ -137,6 +137,6 @@ docker compose up -d
 
 すべての環境変数は `docker/.env.example` にあります。
 
-### もっと
+### もっと&#x20;
 
 もし疑問があれば、[よくある質問](faq.md)をご覧ください。

@@ -131,7 +131,7 @@
 
 ![通用模式 - 添加分段](https://assets-docs.dify.ai/2024/12/552ff4ab9e77130ad09aaef878b19cc9.png)
 
-手动添加文本分段时，你可以选择添加正文和关键词。内容填写后，勾选尾部 **“连续新增”** 钮后，可以继续添加文本。
+手动添加文本分段时，你可以选择添加正文和关键词。内容填写后，勾选尾部&#x7684;**“连续新增”**&#x6309;钮后，可以继续添加文本。
 
 <figure><img src="https://assets-docs.dify.ai/2024/12/cd769622bc1d85c037277ef6fa5247c9.png" alt=""><figcaption><p>通用模式 - 添加文本分段</p></figcaption></figure>
 
@@ -147,7 +147,7 @@
 
 <figure><img src="https://assets-docs.dify.ai/2024/12/ed4be3bf178e3a41d53bcc10255ad3b2.png" alt=""><figcaption><p>父子模式 — 添加区块</p></figcaption></figure>
 
-填写内容后，勾选尾部 **“连续新增”** 钮后，可以继续添加文本。
+填写内容后，勾选尾部&#x7684;**“连续新增”**&#x6309;钮后，可以继续添加文本。
 
 <figure><img src="https://assets-docs.dify.ai/2024/12/ba64232eea364b68f2e38341eb9cf5c1.png" alt=""><figcaption><p>父子模式 - 添加内容区块</p></figcaption></figure>
 
@@ -206,25 +206,6 @@
 ![Q\&A 模式 - 修改文本分段](https://assets-docs.dify.ai/2024/12/5c69adc0d4ec470d0677e67a4dd894a1.png)
 {% endtab %}
 {% endtabs %}
-
-### 修改已上传文档的文本分段
-
-已创建的知识库支持重新配置文档分段。
-
-**较大分段**
-- 可在单个分段内保留更多上下文，适合需要处理复杂或上下文相关任务的场景。
-- 分段数量减少，从而降低处理时间和存储需求。
-
-**较小分段**
-- 提供更高的粒度，适合精确提取或总结文本内容。
-- 减少超出模型 token 限制的风险，更适配限制严格的模型。
-
-你可以访问 **分段设置**，点击 **保存并处理** 按钮以保存对分段设置的修改，并重新触发当前文档的分段流程。
-当你保存设置并完成嵌入处理后，文档的分段列表将自动更新，无需手动刷新页面。
-
-![Chunk Settings](https://assets-docs.dify.ai/2025/01/35c287a11a7db4f7f1974e9080d86169.png)
-
-![Save & Process](https://assets-docs.dify.ai/2025/01/43a05344a425123f0db1c31a9c92bed6.png)
 
 ***
 

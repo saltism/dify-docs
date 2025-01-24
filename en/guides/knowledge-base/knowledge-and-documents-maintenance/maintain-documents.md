@@ -24,11 +24,11 @@ To upload a new document to an existing knowledge base, go to **Knowledge Base**
 
 <figure><img src="https://assets-docs.dify.ai/2024/12/5e0e64859a1ac51602d167ec55ef9350.png" alt=""><figcaption><p>Batch file Operations</p></figcaption></figure>
 
-**Note:**
+**Note:**&#x20;
 
-If there are some documents in your knowledge base that haven’t been updated or retrieved for a while, the system will disable inactive documents to ensure optimal performance.
+If there are some documents in your knowledge base that haven’t been updated or retrieved for a while, the system will disable inactive documents to ensure optimal performance.&#x20;
 
-* For Sandbox users, the "inactive document disable period" is **after 7 days**.
+* For Sandbox users, the "inactive document disable period" is **after 7 days**.&#x20;
 * For Professional and Team users, it is **after 30 days**. You can revert these documents and continue using them at any time by clicking the "Enable" button in the knowledge base.
 
 You can revert these disable documents and continue using them at any time by clicking the "Enable" button in the knowledge base. Paid users are provided with **one-click revert** function.
@@ -214,25 +214,6 @@ In Q\&A chunking mode, each content chunk consists of a question and an answer. 
 <figure><img src="https://assets-docs.dify.ai/2024/12/5c69adc0d4ec470d0677e67a4dd894a1.png" alt=""><figcaption><p><strong>Q&#x26;A Mode - modify text chunks</strong></p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
-
-### Modify Text Chunks for Uploaded Documents
-
-Knowledge Base supports reconfiguring document segmentation.
-
-**Larger Chunks**
-- Retain more context within each chunk, ideal for tasks requiring a broader understanding of the text.
-- Reduce the total number of chunks, lowering processing time and storage overhead.
-
-**Smaller Chunks**
-- Provide finer granularity, improving accuracy for tasks like extraction or summarization.
-- Reduce the risk of exceeding model token limits, making it safer for models with stricter constraints.
-
-Go to **Chunk Settings**, adjust the settings, and click **Save & Process** to save changes and reprocess the document.
-The chunk list will update automatically once processing is complete—no page refresh needed.
-
-![Chunk Settings](https://assets-docs.dify.ai/2025/01/35c287a11a7db4f7f1974e9080d86169.png)
-
-![Save & Process](https://assets-docs.dify.ai/2025/01/43a05344a425123f0db1c31a9c92bed6.png)
 
 ***
 
